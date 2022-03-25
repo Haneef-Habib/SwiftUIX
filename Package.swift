@@ -11,7 +11,7 @@ let package = Package(
         .watchOS(.v6)
     ],
     products: [
-        .library(name: "SwiftUIX", targets: ["SwiftUIX"])
+        .library(name: "SwiftUIXHaneef", targets: ["SwiftUIX"])
     ],
     targets: [
         .target(
