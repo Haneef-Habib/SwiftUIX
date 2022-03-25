@@ -10,8 +10,10 @@ import SwiftUI
 
 public struct CollectionView: View {
     public typealias Offset = ScrollView<AnyView>.ContentOffset
-    
+    // Internal Body
     private let internalBody: AnyView
+    
+    
     
     
     private var _collectionViewConfiguration = _CollectionViewConfiguration()
